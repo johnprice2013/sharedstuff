@@ -1,11 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{1FAD3CB2-6FA0-2DD1-DBFF-BAA653A5DC91}") = "platformerproject", "Assembly-CSharp-firstpass-vs.csproj", "{7FB65361-E958-385D-C301-B667C3FE4AF5}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass-vs", "Assembly-CSharp-firstpass-vs.csproj", "{7FB65361-E958-385D-C301-B667C3FE4AF5}"
 EndProject
-Project("{1FAD3CB2-6FA0-2DD1-DBFF-BAA653A5DC91}") = "platformerproject", "Assembly-CSharp-vs.csproj", "{440947BB-E89D-6F95-74CC-F61BF122E10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-vs", "Assembly-CSharp-vs.csproj", "{440947BB-E89D-6F95-74CC-F61BF122E10A}"
 EndProject
-Project("{1FAD3CB2-6FA0-2DD1-DBFF-BAA653A5DC91}") = "platformerproject", "Assembly-CSharp-Editor-vs.csproj", "{FA6129F8-F107-3F53-778A-C4FC6F21E8AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-vs", "Assembly-CSharp-Editor-vs.csproj", "{FA6129F8-F107-3F53-778A-C4FC6F21E8AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,17 +30,16 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
-		$0.TextStylePolicy = $1
+		$0.TextStylePolicy = $3
 		$1.inheritsSet = null
 		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
 		$3.FileWidth = 120
 		$3.TabWidth = 4
 		$3.EolMarker = Unix
@@ -47,5 +47,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
